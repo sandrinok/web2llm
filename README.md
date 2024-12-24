@@ -35,19 +35,19 @@ It's advised to install this repo in a venv
    npm install
    pip install -r requirements.txt
 
-3. Configure your API keys (if required for Ollama and ScrapeAI). Add them to the .env file:
+3. Configure your API keys. Add them to the .env file:
+   OpenAI-API is optional, Ollama will work out of the box.
    ```env
-   OLLAMA_API_KEY=your_ollama_api_key
-   SCRAPEAI_API_KEY=your_scrapeai_api_key
+   OPENAI_API_KEY=your_ollama_api_key
 
 #### Running the tool
 
-Run the startwebui.py
+Run the start_webui.py
 ```python
 python start_webui.py
 ```
 
 Acces the web interface in your browser at:
 ```url
-http://localhost:3000
+http://localhost:8188
 ```
