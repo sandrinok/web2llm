@@ -23,6 +23,7 @@ A simple yet powerful tool to use LLM (Large Language Models) into advanced AI w
 - Ollama and ScrapeAI installed (see their respective documentation)
 
 ### Installation
+It's advised to install this repo in a venv
 
 1. Clone this repository:
    ```bash
