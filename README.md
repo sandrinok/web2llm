@@ -10,8 +10,8 @@ A simple yet powerful tool to use LLM (Large Language Models) into advanced AI w
 
 ## How It Works
 
-1. **Backend Integration**: llm2webui connects your LLM model through Ollama to handle language processing.
-2. **Data Extraction**: ScrapeAI provides robust data scraping and parsing for dynamic content needs.
+1. **ScrapeAI**: [ScrapeAI](https://scrapeai.com/) is used to handle the scraping
+2. **Ollama**: The backend used for LLM is [Ollama](https://ollama.ai/). OpenAI API is also optional
 3. **Frontend Generation**: A clean, intuitive web interface is automatically generated to interact with your LLM.
 
 ## Getting Started
@@ -21,6 +21,7 @@ A simple yet powerful tool to use LLM (Large Language Models) into advanced AI w
 - Node.js and npm installed
 - Python 3.8 or higher
 - Ollama and ScrapeAI installed (see their respective documentation)
+- For this example Mistral-LLM is used, download this before hand
 
 ### Installation
 It's advised to install this repo in a venv
