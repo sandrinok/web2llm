@@ -1,2 +1,52 @@
-# web2llm
-Web2LLM-webui
+# llm2webui
+
+A simple yet powerful tool to transform LLM (Large Language Models) into interactive web-based interfaces. This project leverages the capabilities of the open-source libraries [Ollama](https://ollama.ai/) and [ScrapeAI](https://scrapeai.com/) to deliver seamless integration and functionality.
+
+## Features
+
+- **Interactive Web Interface**: Quickly convert your LLM-powered applications into a user-friendly web UI.
+- **Powered by Open-Source**: Built with [Ollama](https://ollama.ai/) for LLM processing and [ScrapeAI](https://scrapeai.com/) for enhanced data extraction and integration.
+- **Customizable and Extensible**: Designed with developers in mind, allowing easy customization and scaling.
+
+## How It Works
+
+1. **Backend Integration**: llm2webui connects your LLM model through Ollama to handle language processing.
+2. **Data Extraction**: ScrapeAI provides robust data scraping and parsing for dynamic content needs.
+3. **Frontend Generation**: A clean, intuitive web interface is automatically generated to interact with your LLM.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- Python 3.8 or higher
+- Ollama and ScrapeAI installed (see their respective documentation)
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/llm2webui.git
+   cd llm2webui
+
+2. Install dependencies
+   ```bash
+   npm install
+   pip install -r requirements.txt
+
+3. Configure your API keys (if required for Ollama and ScrapeAI). Add them to the .env file:
+   ```env
+   OLLAMA_API_KEY=your_ollama_api_key
+   SCRAPEAI_API_KEY=your_scrapeai_api_key
+
+#### Running the tool
+
+Run the startwebui.py
+```python
+python start_webui.py
+```
+
+Acces the web interface in your browser at:
+```url
+http://localhost:3000
+```
