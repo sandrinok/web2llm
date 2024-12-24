@@ -38,7 +38,7 @@ It's advised to install this repo in a venv
 3. Configure your API keys. Add them to the .env file:
    OpenAI-API is optional, Ollama will work out of the box.
    ```env
-   OPENAI_API_KEY=your_ollama_api_key
+   OPENAI_API_KEY=your_openai_KEY
 
 #### Running the tool
 
