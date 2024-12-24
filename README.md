@@ -1,6 +1,6 @@
 # llm2webui
 
-A simple yet powerful tool to transform LLM (Large Language Models) into interactive web-based interfaces. This project leverages the capabilities of the open-source libraries [Ollama](https://ollama.ai/) and [ScrapeAI](https://scrapeai.com/) to deliver seamless integration and functionality.
+A simple yet powerful tool to use LLM (Large Language Models) into advanced AI web scrapers. This project leverages the capabilities of the open-source libraries [Ollama](https://ollama.ai/) and [ScrapeAI](https://scrapeai.com/) to deliver seamless integration and functionality.
 
 ## Features
 
